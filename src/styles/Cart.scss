@@ -1,0 +1,128 @@
+aside.Shopping-cart-open{    
+    display: flex;
+    position:  fixed;
+  
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0px;
+
+    width: 18rem;
+   
+   
+    height: 100vh;
+    color: beige;
+    background-color: #272727;
+    transition: 1s cubic-bezier(0.28,-1.12, 0, 1.41);
+  
+   
+   
+    overflow-y: scroll;
+}
+aside.Shopping-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    top: 0;
+    right:0;
+    transform:translatex(-10rem);
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    transition: 1s cubic-bezier(0.87, 0.3, 0, 1.19);
+}
+.section-cart{
+    display: flex;
+    flex-direction: column;
+    gap:0.2rem;
+    align-items: center;
+   
+}
+aside button:hover{
+    color: red;
+    scale: 1.2;
+}
+
+div.cart-items img{
+    width: 3rem;
+    object-fit: cover;
+}
+div.cart-items{
+    
+    display: flex;
+    gap: 2rem;
+}
+div.item-details{
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+button.remove{
+    font-size:1rem;
+    color: red;
+    
+}
+.button-close-cart{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+button.checkout{
+    
+    
+    background-color: rgb(251, 255, 0);
+    height: 2rem;
+}
+
+@media (max-width:700px) {
+    aside.Shopping-cart-open{
+    display: flex;
+    position:  fixed;
+  
+    align-items: center;
+    justify-content: center;
+    
+    top: 0;
+    right: 0px;
+   
+   
+    width: 100vw;
+    height: 100vh;
+
+    color: beige;
+    background-color: #272727;
+    transition: 1s cubic-bezier(0.28,-1.12, 0, 1.41);
+  
+   
+   
+    overflow-y: scroll;
+    }
+
+}
+
+
+
+
+
+// scrollbar settings
+
+aside.Shopping-cart-open::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: #272727;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+    
+aside.Shopping-cart-open::-webkit-scrollbar-thumb {
+     background-color: #3c3c53;
+     border-radius: 20px;
+     
+   }
+aside.Shopping-cart-open::-webkit-scrollbar-thumb:hover {
+     background-color: #252533;
+     border-radius: 50px;
+     
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   }

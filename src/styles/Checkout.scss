@@ -1,0 +1,33 @@
+form.checkout{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+div.form-input{
+    
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    
+}
+div.form-input input{
+    
+    padding: 1rem;
+}
+div.form-input span{
+    
+    font-size: 0.7rem;
+    color: red;
+    display: none;
+    
+}
+input:invalid ~ span{
+    
+    display: flex;
+    padding: 1rem;
+
+}

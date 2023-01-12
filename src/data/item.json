@@ -1,0 +1,63 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Take the risk",
+      "price": 199,
+      "img": "/images/take-the-risk.jpg",
+      "category": "protein"
+    },
+    {
+      "id": 2,
+      "name": "the passion within",
+      "price": 249,
+      "img": "/images/the-passion-within.jpg",
+      "category": "protein"
+    },
+    {
+      "id": 3,
+      "name": "Your soul is a river",
+      "price": 289,
+      "img": "/images/your-soul-is-a-river.jpg",
+      "category": "protein"
+    },
+    {
+      "id": 4,
+      "name": "Your soul is a river",
+      "price": 289,
+      "img": "/images/your-soul-is-a-river.jpg",
+      "category": "protein"
+    },
+    {
+      "id": 5,
+      "name": "Your soul is a river",
+      "price": 289,
+      "img": "/images/your-soul-is-a-river.jpg",
+      "category": "protein"
+    },
+    {
+      "id": 6,
+      "name": "Your soul is a river",
+      "price": 289,
+      "img": "/images/your-soul-is-a-river.jpg",
+      "category": "protein"
+    }
+  ],
+  "cart": [
+    {
+      "values": {
+        "username": "Ime i Prezime",
+        "email": "Stiriacus1@gmail.com",
+        "phone": "0693117040",
+        "adress": "Srpskih Vladara 325"
+      },
+      "cartItems": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

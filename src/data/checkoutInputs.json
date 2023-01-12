@@ -1,0 +1,43 @@
+{
+    "inputs":
+    [
+        { 
+        "id":1,
+        "name": "username",
+        "type": "text",
+        "placeholder": "Ime i Prezime",
+        "errorMessage": "Ime i prezime mogu sadržati jedino slova i 6 do 20 karaktera!",
+        "label": "Ime i Prezime",
+        "required": true,
+        "pattern": "^[A-Z-a-z- ]{6,20}$"
+        },
+        { 
+        "id":2,
+        "name": "email",
+        "type": "email",
+        "placeholder": "E pošta",
+        "errorMessage": "Format E pošte mora da bude ispravan!",
+        "label": "E pošta",
+        "required": true
+        },
+        { 
+        "id":3,
+        "name": "phone",
+        "type": "text",
+        "placeholder": "Broj Telefona",
+        "errorMessage": "U ovom polju mogu biti samo brojevi!",
+        "label": "Broj Telefona",
+        "required": true,
+        "pattern": "^[0-9]{9,12}$"
+        },
+        { 
+        "id":4,
+        "name": "adress",
+        "type": "text",
+        "placeholder": "Adresa",
+        "label": "Adresa",
+        "required": true,
+        "errorMessage": "Adresa, broj"
+        }
+    ]
+}
